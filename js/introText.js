@@ -2,9 +2,9 @@ function getMessage() {
     var time = new Date().getHours();
 
     if (time < 12) {
-      return "Good morning!";
+      return "Goeiemorgen";
     } else if (time < 18) {
-      return "Good afternoon!";
+      return "Goeie!";
     } else {
       return "Good evening!";
     }
