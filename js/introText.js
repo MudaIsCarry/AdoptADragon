@@ -2,11 +2,11 @@ function getMessage() {
     var time = new Date().getHours();
 
     if (time < 12) {
-      return "Goeiemorgen!";
+      return "Goeiemorgen! Welkom op de website van Draak in Nood. Wij zijn een stichting die gewonde draakjes langs de weg helpt een nieuw thuis te zoeken.";
     } else if (time < 18) {
-      return "Goeiemiddag!";
+      return "Goeiemiddag! Welkom op de website van Draak in Nood. Wij zijn een stichting die gewonde draakjes langs de weg helpt een nieuw thuis te zoeken.";
     } else {
-      return "Goeieavond!";
+      return "Goeieavond! Welkom op de website van Draak in Nood. Wij zijn een stichting die gewonde draakjes langs de weg helpt een nieuw thuis te zoeken.";
     }
   }
 
@@ -19,6 +19,6 @@ function getMessage() {
 
 //     window.onload = function() {
 //         var introText = document.getElementById("introText")
-//         introText.innerText = getMessage() + "Welkom op de website van Draak in Nood. Wij zijn een stichting die gewonde draakjes langs de weg helpt een nieuw thuis te zoeken.";
+//         innerText.introText = getMessage() + "Welkom op de website van Draak in Nood. Wij zijn een stichting die gewonde draakjes langs de weg helpt een nieuw thuis te zoeken.";
 //     }
 //   }
