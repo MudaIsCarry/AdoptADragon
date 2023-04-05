@@ -11,7 +11,7 @@ function getMessage() {
   }
 
   window.onload = function() {
-    var greeting = document.getElementById("greeting");
+    var greeting = document.getElementById("introText");
     greeting.innerText = getMessage();
   };
 
