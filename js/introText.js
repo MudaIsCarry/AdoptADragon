@@ -14,11 +14,3 @@ function getMessage() {
     var greeting = document.getElementById("introText");
     greeting.innerText = getMessage();
   };
-
-//   function getMessage() {
-
-//     window.onload = function() {
-//         var introText = document.getElementById("introText")
-//         innerText.introText = getMessage() + "Welkom op de website van Draak in Nood. Wij zijn een stichting die gewonde draakjes langs de weg helpt een nieuw thuis te zoeken.";
-//     }
-//   }
